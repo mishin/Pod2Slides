@@ -1,0 +1,25 @@
+---
+abstract: 'Make presentation slides out of POD'
+author:
+  - 'Thomas Klausner <domm@cpan.org>'
+build_requires: {}
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4005, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Pod2Slides
+provides:
+  Pod2Slides:
+    file: lib/Pod2Slides.pm
+    version: '1.01'
+requires:
+  Class::Accessor: '0.22'
+  Getopt::Long: '2.34'
+  Pod::Simple: '3'
+  Template: '2.1'
+  Test::More: '0'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '1.01'
